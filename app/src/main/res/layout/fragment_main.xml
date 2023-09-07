@@ -40,12 +40,13 @@
                 <EditText
                     android:id="@+id/weightEdit"
                     android:layout_width="match_parent"
-                    android:textSize="26sp"
-                    android:hint="kg"
+                    android:layout_height="80dp"
                     android:layout_marginEnd="6dp"
+                    android:hint="kg"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/lacivert"
-                    android:layout_height="80dp" />
+                    android:textSize="26sp" />
 
 
 
@@ -68,12 +69,13 @@
                 <EditText
                     android:id="@+id/heightEdit"
                     android:layout_width="match_parent"
-                    android:textSize="26sp"
-                    android:hint="cm"
+                    android:layout_height="80dp"
                     android:layout_marginStart="6dp"
+                    android:hint="cm"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/lacivert"
-                    android:layout_height="80dp" />
+                    android:textSize="26sp" />
 
 
 
